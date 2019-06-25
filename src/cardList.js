@@ -13,7 +13,7 @@ const cardListStyles = {
 }
 
 const listStyle = {
-    flexBasis: '25%'
+    flexBasis: '25%',
 }
 
 const CardList = props => {

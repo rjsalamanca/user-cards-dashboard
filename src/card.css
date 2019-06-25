@@ -1,0 +1,20 @@
+
+.card{
+    margin: 20px;
+    padding: 10px 0px;
+    background: linear-gradient(to bottom, #384350, #384350 45%, white 45%);
+    border-radius: 3px;
+}
+
+.activeContainer{
+    padding: 10px 10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.imageContainer{
+    padding: 10px 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
