@@ -7,7 +7,13 @@ import Card from './card';
 const cardListStyles = {
     listStyleType: 'none',
     margin: 0,
-    padding: 0
+    padding: 0,
+    display: 'flex',
+    flexWrap: 'wrap'
+}
+
+const listStyle = {
+    flexBasis: '25%'
 }
 
 const CardList = props => {
@@ -17,7 +23,7 @@ const CardList = props => {
         <ul style={cardListStyles}>
             {userData.length > 0 ? 
                 userData.map(user => 
-                    <li key={user.login.uuid}>
+                    <li style={listStyle} key={user.login.uuid}>
                         <Card user={user} />
                     </li>
                 )

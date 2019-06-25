@@ -9,7 +9,7 @@ class App extends Component {
   }
 
   async componentDidMount(){
-    const response = await fetch('https://randomuser.me/api/?results=2');
+    const response = await fetch('https://randomuser.me/api/?results=8');
     const data = await response.json();
     
     this.setState({
