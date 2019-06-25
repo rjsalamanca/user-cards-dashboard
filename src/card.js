@@ -8,14 +8,14 @@ const Card = props => {
     return (
         <div className = "card">
             <div className = "activeContainer">
-                <i className = "fas fa-ellipsis-v"></i>
-                <span><i style = {{fontSize: '0.5em', color: 'green', marginRight: '5px', verticalAlign: 'middle'}} className="fas fa-circle"></i>active</span>
-                <i className="far fa-eye"></i>
+                <i className = "activeImage fas fa-ellipsis-v"></i>
+                <span><i className="activeCircle fas fa-circle"></i>active</span>
+                <i className = "activeImage far fa-eye"></i>
             </div>
             <div className = 'imageContainer'>
-                <i className="far fa-envelope"></i>
-                <img style={{border: '5px solid white', borderRadius: '3px'}} src={user.picture.large} alt={user.name.first} />
-                <i className="far fa-comment-dots"></i>
+                <i className="iconImage far fa-envelope"></i>
+                <img className="image" src={user.picture.large} alt={user.name.first} />
+                <i className="iconImage far fa-comment-dots"></i>
             </div>
 
             <h4>{user.name.first} {user.name.last}</h4>
