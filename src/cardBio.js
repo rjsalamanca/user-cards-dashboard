@@ -1,7 +1,7 @@
 import React from 'react';
 
 const bioStyle = {
-    borderTop: '2px solid red',
+    borderTop: '5px solid #EFEEEF',
     listStyleType: 'none',
     textAlign: 'left',
     paddingInlineStart: 0

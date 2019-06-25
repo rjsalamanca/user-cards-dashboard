@@ -9,7 +9,7 @@ const cardListStyles = {
     margin: 0,
     padding: 0,
     display: 'flex',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
 }
 
 const listStyle = {
